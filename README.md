@@ -41,4 +41,5 @@ By analyzing this dataset, we can understand **order trends, revenue patterns, c
 SELECT customer_state, COUNT(*) AS customer_count
 FROM ecom_customers
 GROUP BY customer_state
-ORDER BY customer_count DESC;
+ORDER BY customer_count DESC
+LIMIT 5;
